@@ -1,0 +1,60 @@
+	{
+    "main": "public/javascripts/clickdesk.js",
+    "name": "ClickDesk",
+    "description": "ClickDesk is a reliable combo of Live chat, Video chat, Helpdesk and Social toolbar. Answer questions from your web visitors instantly with live chat from desktop or mobile, handle support tickets and offline chats better with our integrated helpdesk, use video chat for a more personal experience and improve customer connections with our social toolbar.",
+    "version": "0.1",
+    "category": "live chat",
+	"contributors":[
+	{
+		"name":"Sasi Krishna",
+		"email":"sasi@clickdesk.com"
+	}
+	],
+    "config":{
+        "details":{
+            "Language": "English",
+            "Price": "Free",
+            "Restrictions": "None",
+            "TOS":"http://www.clickdesk.com/tos.html",
+            "has_js": true
+        }, 
+        "assets":{
+            "logos" : {
+				"132px": "./public/images/logo-132.png",
+                "200px": "./public/images/logo-200.png"
+            },
+            "detail_page" : [
+                "./public/images/example.png"
+            ]
+        },
+        "interface": [
+            {
+                "type": "string",
+                "id": "widget_id",
+                "name": "ClickDesk WidgetID",
+                "description": "Please provide your ClickDesk WidgetID to complete the app installation"
+            }
+        ]
+    },
+    "account": {
+        "callback_url": "http://countersback.herokuapp.com/api",
+        "user_fields": ["email"]
+    },
+    "billing": {
+        "type": "zone",
+        "plans":[
+            {
+                "name" : "Free",
+                "price": "0"
+            },
+            {
+                "name" : "Lite",
+                "price" : "14.99"
+            },
+			{
+                "name" : "Pro",
+                "price": "24.99"
+            }
+        ]
+    }
+}
