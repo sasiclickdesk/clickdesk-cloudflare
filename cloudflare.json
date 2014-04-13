@@ -1,7 +1,7 @@
 	{
     "main": "public/javascripts/clickdesk.js",
     "name": "ClickDesk",
-    "description": "ClickDesk is a reliable combo of Live chat, Video chat, Helpdesk and Social toolbar. Answer questions from your web visitors instantly with live chat from desktop or mobile, handle support tickets.",
+    "description": "ClickDesk is a reliable combo of Live chat, Video chat, Helpdesk and Social toolbar.Answer questions from your web visitors instantly with live chat from desktop or mobile, handle support tickets.",
     "version": "0.1",
     "category": "live chat",
 	"contributors":[
