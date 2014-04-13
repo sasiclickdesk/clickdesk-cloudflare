@@ -1,7 +1,7 @@
 	{
     "main": "public/javascripts/clickdesk.js",
     "name": "ClickDesk",
-    "description": "ClickDesk is a reliable combo of Live chat, Video chat, Helpdesk and Social toolbar. Answer questions from your web visitors instantly with live chat from desktop or mobile, handle support tickets and offline chats better with our integrated helpdesk.",
+    "description": "ClickDesk is a reliable combo of Live chat, Video chat, Helpdesk and Social toolbar. Answer questions from your web visitors instantly with live chat from desktop or mobile, handle support tickets.",
     "version": "0.1",
     "category": "live chat",
 	"contributors":[
@@ -20,8 +20,8 @@
         }, 
         "assets":{
             "logos" : {
-				"132px": "./public/images/clickdesk_logo-132.png",
-                "200px": "./public/images/clickdesk_logo-200.png",
+				"132px": "./public/images/logo-132.png",
+                "200px": "./public/images/logo-200.png"
             },
             "detail_page" : [
                 "./public/images/example.png"
