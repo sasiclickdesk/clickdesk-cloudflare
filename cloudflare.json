@@ -1,15 +1,20 @@
 	{
-    "main": "public/javascripts/clickdesk.js",
+    "main": "./public/javascripts/clickdesk.js",
     "name": "ClickDesk",
     "description": "ClickDesk is a reliable combo of Live chat, Video chat, Helpdesk and Social toolbar. Answer questions from your web visitors instantly with live chat from desktop or mobile, handle support tickets.",
     "version": "0.1",
     "category": "live chat",
+    "implements": "AMD",
 	"contributors":[
 	{
 		"name":"Sasi Krishna",
 		"email":"sasi@clickdesk.com"
 	}
 	],
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/sasiclickdesk/clickdesk-cloudflare.git"
+    },
     "config":{
         "details":{
             "Language": "English",
