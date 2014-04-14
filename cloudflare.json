@@ -29,7 +29,7 @@
                 "200px": "./public/images/clickdesk_logo-200.png"
             },
             "detail_page" : [
-                "./public/images/example.png"
+                "./public/images/clickdesk_screenshot.png"
             ]
         },
         "interface": [
