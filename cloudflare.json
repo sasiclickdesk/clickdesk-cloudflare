@@ -1,65 +1,56 @@
-	{
-    "main": "./public/javascripts/clickdesk.js",
+{
     "name": "ClickDesk",
-    "description": "ClickDesk is a reliable combo of Live chat, Video chat, Helpdesk and Social toolbar.Answer questions from your web visitors instantly with live chat from desktop or mobile, handle support tickets.",
-    "version": "0.2.1",
     "category": "live chat",
-    "implements": "AMD",
-	"contributors":[
-	{
-		"name":"Sasi Krishna",
-		"email":"sasi@clickdesk.com"
-	}
-	],
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/sasiclickdesk/clickdesk-cloudflare.git"
-    },
-    "config":{
-        "details":{
-            "Language": "English",
-            "Price": "Free",
-            "Restrictions": "None",
-            "TOS":"http://www.clickdesk.com/tos.html",
-            "has_js": true
-        }, 
-        "assets":{
-            "logos" : {
-				"132px": "./public/images/clickdesk_logo-132.png",
-                "200px": "./public/images/clickdesk_logo-200.png"
-            },
-            "detail_page" : [
-                "./public/images/clickdesk_screenshot.png"
-            ]
+    "description": "ClickDesk is a reliable combo of Live chat, Video chat, Helpdesk and Social toolbar.Answer questions from your web visitors instantly with live chat from desktop or mobile, handle support tickets.",
+    "keywords" : [
+        "live chat"
+        ],
+    "version": "0.2.2",
+    "contributors": [
+    {
+        "name" : "Sasi Krishna",
+        "email" : "sasi@clickdesk.com"
+    }
+    ],
+        "repository" : {
+            "type" : "git",
+            "url" : "https://github.com/sasiclickdesk/clickdesk-cloudflare.git"
         },
-        "interface": [
+        "main" : "./public/javascripts/clickdesk.js",
+        "dependencies" : {
+        },
+        "licenses" : [
+        {
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/MIT"
+		}],
+        "implements" : "AMD",
+        "scripts" : {
+        },
+        "config" : {
+            "assets" : {
+                "logos" : {
+                    "200px": "./public/images/clickdesk_logo-200.png",
+                    "132px": "./public/images/clickdesk_logo-132.png"
+                },
+                "detail_page" : [
+                	"./public/images/clickdesk_screenshot.png"
+                ]
+            },
+            "payment": {},
+            "details": {
+               "Category": "Live Chat",
+               "Language": "English",
+               "Restrictions": "None",
+			   "Help": "<a href='https://www.clickdesk.com/help.html' target='_blank'>Click to get started</a>"
+           },
+            "interface": [
             {
-                "type": "string",
                 "id": "widget_id",
                 "name": "ClickDesk WidgetID",
-                "description": "Please provide your ClickDesk WidgetID to complete the app installation"
-            }
-        ]
-    },
-    "account": {
-        "callback_url": "http://countersback.herokuapp.com/api",
-        "user_fields": ["email"]
-    },
-    "billing": {
-        "type": "zone",
-        "plans":[
-            {
-                "name" : "Free",
-                "price": "0"
-            },
-            {
-                "name" : "Lite",
-                "price" : "14.99"
-            },
-			{
-                "name" : "Pro",
-                "price": "24.99"
-            }
-        ]
-    }
+                "description": "Please provide your ClickDesk WidgetID to complete the app installation.",
+                "type": "string"
+                }
+            ]
+        }
 }
