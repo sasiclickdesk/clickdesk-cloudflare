@@ -8,9 +8,9 @@ CloudFlare.define(
 
 	try{
         console.log(config);
-		console.log(config.id);
+		console.log(config.widget_id);
 		
-		_glc =_glc || []; _glc.push(config.id);
+		_glc =_glc || []; _glc.push(config.widget_id);
 		glcpath = (('https:' == document.location.protocol) ? 'https://my.clickdesk.com/clickdesk-ui/browser/' : 
 			'http://my.clickdesk.com/clickdesk-ui/browser/');
 		glcp = (('https:' == document.location.protocol) ? 'https://' : 'http://');
