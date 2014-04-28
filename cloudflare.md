@@ -9,5 +9,5 @@ Here is the snapshot of how ClickDesk widget looks in a website.
 
 ![Screenshot of clickdesk](/images/apps/clickdesk/clickdesk_screenshot.png "Screenshot")
 
-For comments or support please contact us by <a href="mailto:support@clickdesk.com">email</a>.
+For support please contact us by <a href="mailto:support@clickdesk.com">email</a>.
 

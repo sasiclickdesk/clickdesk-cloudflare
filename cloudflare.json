@@ -1,56 +1,51 @@
 {
     "name": "ClickDesk",
-    "category": "live chat",
     "description": "ClickDesk is a reliable combo of Live chat, Video chat, Helpdesk and Social toolbar.Answer questions from your web visitors instantly with live chat from desktop or mobile, handle support tickets.",
-    "keywords" : [
-        "live chat"
-        ],
-    "version": "0.3",
-    "contributors": [
-    {
-        "name" : "Sasi Krishna",
-        "email" : "sasi@clickdesk.com"
-    }
+    "category": "live chat",
+    "version": "1.0",
+    "main" : "./public/javascripts/clickdesk.js",
+    "implements" : "AMD",
+    "contributors": 
+    [
+    	{
+        	"name" : "Sasi Krishna",
+        	"email" : "sasi@clickdesk.com"
+    	}
     ],
-        "repository" : {
-            "type" : "git",
-            "url" : "https://github.com/sasiclickdesk/clickdesk-cloudflare.git"
-        },
-        "main" : "./public/javascripts/clickdesk.js",
-        "dependencies" : {
-        },
-        "licenses" : [
-        {
-            "type": "MIT",
-            "url": "http://www.opensource.org/licenses/MIT"
-		}],
-        "implements" : "AMD",
-        "scripts" : {
-        },
-        "config" : {
-            "assets" : {
-                "logos" : {
-                    "200px": "./public/images/clickdesk_logo-200.png",
-                    "132px": "./public/images/clickdesk_logo-132.png"
-                },
-                "detail_page" : [
-                	"./public/images/clickdesk_screenshot.png"
-                ]
+    "repository" : 
+    {
+     	"type" : "git",
+        "url" : "https://github.com/sasiclickdesk/clickdesk-cloudflare.git"
+    },
+    "config" : 
+    {
+             "assets" : 
+             {
+                	  "logos" : 
+                	  {
+                    		  "200px": "./public/images/clickdesk_logo-200.png",
+                              "132px": "./public/images/clickdesk_logo-132.png"
+                      },
+                      "detail_page" : 
+                      [
+                	                "./public/images/clickdesk_screenshot.png"
+                      ]
             },
-            "payment": {},
-            "details": {
-               "Category": "Live Chat",
-               "Language": "English",
-               "Restrictions": "None",
-			   "Help": "<a href='https://www.clickdesk.com/help.html' target='_blank'>Click to get started</a>"
-           },
-            "interface": [
+            "details": 
             {
-                "id": "widget_id",
-                "name": "ClickDesk WidgetID",
-                "description": "Please provide your ClickDesk WidgetID to complete the app installation.",
-                "type": "string"
-                }
-            ]
-        }
+                     "Category": "Live Chat",
+                     "Language": "English",
+                     "Restrictions": "None",
+			         "Help": "<a href='https://www.clickdesk.com/help.html' target='_blank'>Click to get started</a>"
+           },
+           "interface": 
+           [
+            		{
+                		"id": "widget_id",
+                		"name": "ClickDesk WidgetID",
+                		"description": "Please provide your ClickDesk WidgetID to complete the app installation.",
+                		"type": "string"
+                	}
+           ]
+    }
 }
